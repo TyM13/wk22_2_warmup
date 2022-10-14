@@ -32,16 +32,6 @@ CREATE TABLE `pokemon` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `pokemon`
---
-
-LOCK TABLES `pokemon` WRITE;
-/*!40000 ALTER TABLE `pokemon` DISABLE KEYS */;
-INSERT INTO `pokemon` VALUES (3,'Charmander','It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.','https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png');
-/*!40000 ALTER TABLE `pokemon` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Dumping routines for database 'flask_response_warmup_two'
 --
 /*!50003 DROP PROCEDURE IF EXISTS `all_pokemon` */;
@@ -98,4 +88,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-10-13 18:52:54
+-- Dump completed on 2022-10-13 18:53:48
